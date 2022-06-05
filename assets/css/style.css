@@ -147,6 +147,7 @@ html {
 
 #nav .nav-arrow-down {
     font-size: 12px;
+    margin-left: 3px;
 }
 
 /* CSS cho thanh tìm kiếm PC và Menu trên Mobile */
@@ -195,11 +196,12 @@ html {
 
 #slider{
     position: relative;
-    margin-top: 46px;
-    padding-top: 50%;
-    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;    
 }
 
+.slider1 {
+    width: 100%;
+    margin-top: 46px;
+}
 
 #slider .text-content{
     position: absolute;
